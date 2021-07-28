@@ -10,6 +10,8 @@
 body {
   width: 100%;
   font-size: 16px;
+    background-color: hsl(0, 100%, 98%);
+
 }
 
 .pink-text {
@@ -128,8 +130,8 @@ button:hover {
   body {
     width: 100%;
     background-repeat: no-repeat;
-    background-color: hsl(0, 100%, 98%);
     background-image: url("./images/bg-pattern-desktop.svg");
+    background-size: contain;
   }
   .grid {
     display: grid;
