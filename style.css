@@ -73,7 +73,7 @@ input {
   border-radius: 50px;
   color: hsl(0, 6%, 24%);
   font-weight: 600;
-  font-size: 1.05rem;
+  overflow-x: auto;
 }
 ::placeholder {
   color: hsl(0, 36%, 70%);
@@ -89,7 +89,7 @@ input {
 }
 
 button {
-  width: 5rem;
+  width: 4rem;
   padding: 0.75rem 0;
   border-radius: 50px;
   border: none;
@@ -125,7 +125,7 @@ button:hover {
 @media screen and (min-width: 1000px) {
   body {
     width: 100%;
-    background-image: url('./images/bg-pattern-desktop.svg');
+    background-image: url("./images/bg-pattern-desktop.svg");
     background-repeat: no-repeat;
   }
   .grid {
@@ -165,4 +165,14 @@ button:hover {
     font-size: 1rem;
     line-height: 1.75rem;
   }
+  input {
+    font-size: 1.05rem;
+  }
+  button {
+    width: 5rem;
+  }
+}
+
+.error {
+  border: 2px solid hsl(0, 93%, 68%);
 }

@@ -26,12 +26,15 @@
       }
     </style>
   </head>
-  <body>
+  <body onload="clr();">
     <main class="container grid">
+      <!-- logo -->
       <div class="logo-container grid-left">
         <img src="./images/logo.svg" class="logo" alt="logo" />
       </div>
+      <!-- blank div for hero img -->
       <div class="hero-img grid-right"></div>
+      <!-- text content -->
       <div class="text grid-left">
         <p class="heading">
           <span class="pink-text">We're</span> <br />
@@ -43,28 +46,20 @@
           Add your email below to stay up-to-date with announcements and our
           launch deals.
         </p>
-        <form>
+        <form onsubmit="validate();">
           <div class="input-container">
-            <input type="email" placeholder="Email Address" />
+            <input type="email" placeholder="Email Address" id="email" />
             <img src="./images/icon-error.svg" alt="err" id="error-icon" />
-            <button type="submit">
+            <button type="submit" onsubmit="validate();" onclick="validate();">
               <img src="./images/icon-arrow.svg" alt="add" />
             </button>
           </div>
-          <div class="err-container">
-            <p id="errLabel">Please enter a valid email</p>
-          </div>
         </form>
+        <div class="err-container">
+          <p id="errLabel">Please enter a valid email</p>
+        </div>
       </div>
     </main>
-
-    <!-- <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
-    </footer> -->
+    <script src="./main.js"></script>
   </body>
 </html>
