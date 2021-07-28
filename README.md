@@ -33,7 +33,7 @@ Users should be able to:
 ![](./screenshots/desktop-layout.png)
 ![](./screenshots/desktop-active-states.png)
 ![](./screenshots/mobile-layout.png)
-![](./screenshots/mobiel-active-states.png)
+![](./screenshots/mobile-active-states.png)
 
 ### Links
 
