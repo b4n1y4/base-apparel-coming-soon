@@ -52,6 +52,6 @@ Users should be able to:
 
 ## Author
 
-- [Ritesh Gupta](https://www.linkedin.com/in/b4n1y4)
+- [Ritesh Gupta](https://www.linkedin.com/in/r1t35h)
 - Frontend Mentor - [@b4n1y4](https://www.frontendmentor.io/profile/b4n1y4)
 - Twitter - [@b4n1y4](https://www.twitter.com/b4n1y4)
